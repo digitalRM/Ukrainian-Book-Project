@@ -6,18 +6,7 @@ const hedvigLettersSans = Hedvig_Letters_Sans({ subsets: ['latin'], weight: ['40
 const hedvigLettersSerif = Hedvig_Letters_Serif({ subsets: ['latin'], weight: ['400'] })
 
 const navigation = {
-  solutions: [
-    { name: 'Marketing', href: '#' },
-    { name: 'Analytics', href: '#' },
-    { name: 'Commerce', href: '#' },
-    { name: 'Insights', href: '#' },
-  ],
-  support: [
-    { name: 'Pricing', href: '#' },
-    { name: 'Documentation', href: '#' },
-    { name: 'Guides', href: '#' },
-    { name: 'API Status', href: '#' },
-  ],
+
   company: [
     { name: 'About', href: '#' },
     { name: 'Blog', href: '#' },
@@ -50,10 +39,10 @@ export default function Footer() {
               Researching and developing tools to ensure the global availability of Ukrainian book catalog records.
               </span>
             </p>
-            <ArrowLeftSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90' size={18} />  
-            <ArrowUpSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90' size={18} />
-            <ArrowDownSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90' size={18} />
-            <ArrowRightSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90' size={18} />
+            <ArrowLeftSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90 hover:rotate-180 transition-transform ease-in-out' size={18} />  
+            <ArrowUpSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90 hover:rotate-180 transition-transform ease-in-out' size={18} />
+            <ArrowDownSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90 hover:rotate-180 transition-transform ease-in-out' size={18} />
+            <ArrowRightSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90 hover:rotate-180 transition-transform ease-in-out' size={18} />
 
             </div>
             <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
@@ -63,32 +52,6 @@ export default function Footer() {
                 </div>
                 <div className="mt-10 md:mt-0 hidden lg:contents">
                   
-                </div>
-              </div>
-              <div className="md:grid md:grid-cols-2 md:gap-8">
-                <div>
-                  <h3 className="text-sm font-semibold leading-6 text-[#f3f1e9]/90 lg:text-right">Company</h3>
-                  <ul role="list" className="mt-6 space-y-4 lg:text-right">
-                    {navigation.company.map((item) => (
-                      <li key={item.name}>
-                        <a href={item.href} className="text-sm leading-6 text-[#b3b2a8]  hover:text-gray-900">
-                          {item.name}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="mt-10 md:mt-0">
-                  <h3 className="text-sm font-semibold leading-6 text-[#f3f1e9]/90 lg:text-right">Legal</h3>
-                  <ul role="list" className="mt-6 space-y-4 lg:text-right">
-                    {navigation.legal.map((item) => (
-                      <li key={item.name}>
-                        <a href={item.href} className="text-sm leading-6 text-[#b3b2a8] hover:text-gray-900">
-                          {item.name}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
                 </div>
               </div>
             </div>

@@ -29,7 +29,7 @@ const scale = useTransform(scrollYProgress, [0, 1], [0, 900]);
           </h1>
           <p className="mt-6 text-md sm:text-lg leading-8 text-yellow-950/80">
             <span className={hedvigLettersSans.className}>
-            We are researching and developing tools to ensure the global availability of Ukrainian book catalog records. Elit sunt amet
+            We are researching and developing tools to ensure global access to Ukrainian book catalog records. Elit sunt amet
               fugiat veniam occaecat fugiat aliqua.
             </span>
           </p>

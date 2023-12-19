@@ -1,6 +1,8 @@
+'use client'
 import React from 'react'
 import { Hedvig_Letters_Sans } from 'next/font/google'
 import Image from 'next/image'
+import { motion, useScroll, useTransform } from 'framer-motion';
 
 const hedvigLettersSans = Hedvig_Letters_Sans({ subsets: ['latin'], weight: ['400'] })
 
@@ -40,8 +42,41 @@ const people = [
 ]
 
 export default function Section2() {
+  const { scrollYProgress } = useScroll();
+  const pathLength3 = useTransform(scrollYProgress, [0.6, 0.8], [0, 1]);
+  const pathLength2 = useTransform(scrollYProgress, [0.81, 0.95], [0, 1]);
+  
   return (
     <div className='w-screen bg-[#f3f1e9] overflow-hidden '>
+      <div className='w-screen h-full relative'>
+        <motion.svg className='absolute lg:flex hidden right-0 -mt-[3px]' width="699" height="282" viewBox="0 0 699 282" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <motion.path
+        d="M418 2C418 179 480 164.5 698.5 164.5"
+        stroke="#211206"
+        strokeWidth="54"
+        style={{
+          pathLength: pathLength3,
+          strokeDashoffset: pathLength3,
+          strokeDasharray: pathLength3,
+        }}
+        />
+        </motion.svg>
+
+        <motion.svg className='absolute svg:flex  hidden right-0 bottom-0 -mb-1' width="285" height="197" viewBox="0 0 285 197" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <motion.path
+          d="M285 27.001C182.001 26.9963 26.998 27 26.998 196.501"
+          stroke="#211206"
+          strokeWidth="54"
+          style={{
+            pathLength: pathLength2,
+            strokeDashoffset: pathLength2,
+            strokeDasharray: pathLength2,
+          }}
+          />
+        </motion.svg>
+      
+
+     
 <div id="members" className=" py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
@@ -49,8 +84,7 @@ export default function Section2() {
           <span className={hedvigLettersSans.className}>
             <p className="mt-6 text-md sm:text-lg leading-8 text-yellow-950/80">
             
-            We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the
-              best results for our clients.
+            Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Velit egestas dui id ornare. Sit amet consectetur adipiscing elit ut aliquam purus sit amet.
             </p>
           </span>
         </div>
@@ -91,6 +125,7 @@ export default function Section2() {
           ))}
         </ul>
       </div>
+    </div>
     </div>
     </div>
   )
