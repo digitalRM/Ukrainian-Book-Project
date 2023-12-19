@@ -8,6 +8,7 @@ const hedvigLettersSerif = Hedvig_Letters_Serif({ subsets: ['latin'] })
 export const metadata = {
   title: 'Ukrainian Book Project - WSU',
   description: 'We are researching and developing tools to ensure the global availability of Ukrainian book catalog records.',
+  
 }
 
 export default function RootLayout({ children }) {

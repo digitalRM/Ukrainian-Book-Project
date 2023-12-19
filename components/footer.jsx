@@ -39,19 +39,23 @@ export default function Footer() {
               Researching and developing tools to ensure the global availability of Ukrainian book catalog records.
               </span>
             </p>
-            <ArrowLeftSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90 hover:rotate-180 transition-transform ease-in-out' size={18} />  
-            <ArrowUpSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90 hover:rotate-180 transition-transform ease-in-out' size={18} />
-            <ArrowDownSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90 hover:rotate-180 transition-transform ease-in-out' size={18} />
-            <ArrowRightSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90 hover:rotate-180 transition-transform ease-in-out' size={18} />
-
             </div>
-            <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+            <div className="mt-8 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
               <div className="md:grid-cols-2 md:gap-8 hidden lg:contents">
                 <div>
                   
                 </div>
                 <div className="mt-10 md:mt-0 hidden lg:contents">
                   
+                </div>
+              </div>
+              <div className="md:grid md:grid-cols-2 md:gap-8">
+                <div className=' col-span-2 flex flex-row lg:justify-end'>
+                 <ArrowLeftSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90 hover:rotate-180 transition-transform ease-in-out' size={18} />  
+                 <ArrowUpSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90 hover:rotate-180 transition-transform ease-in-out' size={18} />
+                 <ArrowDownSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90 hover:rotate-180 transition-transform ease-in-out' size={18} />
+                 <ArrowRightSquareIcon ria-hidden="true" className='inline stroke-[#f3f1e9]/90 hover:rotate-180 transition-transform ease-in-out' size={18} />
+
                 </div>
               </div>
             </div>

@@ -60,7 +60,7 @@ export default function Section1() {
                 </span>
               </p>
               <a href="#" className="mt-4 block text-md font-semibold hover:text-[#f3f1e9]/70 text-[#f3f1e9]/90 w-fit">
-                <span className={hedvigLettersSans.className}>View Article </span><ArrowUpRightSquareIcon aria-hidden="true" className='inline' size={16} />  
+                <span className={hedvigLettersSans.className}>View Paper </span><ArrowUpRightSquareIcon aria-hidden="true" className='inline' size={16} />  
               </a>
             </div>
           </div>

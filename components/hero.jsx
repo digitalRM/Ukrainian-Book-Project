@@ -51,7 +51,7 @@ const scale = useTransform(scrollYProgress, [0, 1], [0, 900]);
         <div className="mx-auto mt-0 flex max-w-xl sm:mt-24 lg:ml-4 lg:mr-0 lg:mt-0 overflow-visable lg:flex-none xl:ml-24">
           <motion.div style={{ translateY: scale}} className="mt-14 flex justify-end gap-6 sm:-mt-44 sm:justify-start sm:pl-20 lg:-mt-24 lg:pl-0">
                   <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
-                  <motion.div drag dragSnapToOrigin dragConstraints={{top: -50,left: -50,right: 50,bottom: 50,}} className="relative cursor-grab ">
+                  <motion.div whileTap={{ cursor: 'grabbing'}} drag dragSnapToOrigin dragConstraints={{top: -50,left: -50,right: 50,bottom: 50,}} className="relative hover:cursor-grab">
                       <div className="aspect-[2/3] w-full rounded-xl rounded-l-none bg-[#5B3E24] object-cover shadow-lg overflow-hidden relative">
                       <div className=' absolute h-full w-9 bg-[#442914] left-0 top-0' />
                       </div>
@@ -59,7 +59,7 @@ const scale = useTransform(scrollYProgress, [0, 1], [0, 900]);
                     </motion.div >
                   </div>
                   <div className="mr-auto rounded-xl rounded-l-none w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
-                  <motion.div drag dragSnapToOrigin dragConstraints={{top: -50,left: -50,right: 50,bottom: 50,}} className="relative cursor-grab">
+                  <motion.div drag whileTap={{ cursor: 'grabbing'}} dragSnapToOrigin dragConstraints={{top: -50,left: -50,right: 50,bottom: 50,}} className="relative cursor-grab">
                       <div className="aspect-[2/3] w-full rounded-xl rounded-l-none bg-[#624B39] object-cover shadow-lg">
                        <div className=' absolute h-full w-9 rounded-l-none bg-[#4A2F1A] left-0 top-0' />
 
@@ -67,7 +67,7 @@ const scale = useTransform(scrollYProgress, [0, 1], [0, 900]);
                       </div>
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </motion.div >
-                    <motion.div drag dragSnapToOrigin dragConstraints={{top: -50,left: -50,right: 50,bottom: 50,}} className="relative cursor-grab">
+                    <motion.div drag whileTap={{ cursor: 'grabbing'}} dragSnapToOrigin dragConstraints={{top: -50,left: -50,right: 50,bottom: 50,}} className="relative cursor-grab">
                       <div className="aspect-[2/3] w-full rounded-xl rounded-l-none bg-[#6B5544] object-cover shadow-xl">
                         <div className=' absolute h-full w-9 bg-[#543B28] left-0 top-0' />
 
@@ -78,7 +78,7 @@ const scale = useTransform(scrollYProgress, [0, 1], [0, 900]);
                   </div>
                   <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
 
-                    <motion.div drag dragSnapToOrigin dragConstraints={{top: -50,left: -50,right: 50,bottom: 50,}} className="relative cursor-grab">
+                    <motion.div drag whileTap={{ cursor: 'grabbing'}} dragSnapToOrigin dragConstraints={{top: -50,left: -50,right: 50,bottom: 50,}} className="relative cursor-grab">
                        <div className="aspect-[2/3] w-full rounded-xl rounded-l-none bg-[#7D6A5A] object-cover shadow-xl">
                         <div className=' absolute h-full w-9 bg-[#644D3B] left-0 top-0' />
 

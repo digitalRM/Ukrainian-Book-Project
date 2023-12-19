@@ -62,7 +62,7 @@ export default function Section2() {
         />
         </motion.svg>
 
-        <motion.svg className='absolute svg:flex  hidden right-0 bottom-0 -mb-1' width="285" height="197" viewBox="0 0 285 197" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <motion.svg className='absolute svg:flex -mr-3  hidden right-0 bottom-0 -mb-1' width="285" height="197" viewBox="0 0 285 197" fill="none" xmlns="http://www.w3.org/2000/svg">
           <motion.path
           d="M285 27.001C182.001 26.9963 26.998 27 26.998 196.501"
           stroke="#211206"
@@ -102,9 +102,9 @@ export default function Section2() {
                     </clipPath>
                   </defs>
                 </svg>
-                <Image className="aspect-[2/2]  hover:rounded-[48px] bg-clip-content w-full rounded-2xl object-cover grayscale hover:grayscale-0 transition-all" style={{ clipPath: 'url(#clippy)' }} width={280} height={280} src={person.imageUrl} alt="" />
+                <Image className="aspect-[2/2]  hover:rounded-[48px] bg-clip-content lg:hidden  xl:flex w-full rounded-2xl object-cover grayscale hover:grayscale-0 transition-all" style={{ clipPath: 'url(#clippy)' }} width={280} height={280} src={person.imageUrl} alt="" />
               </div>
-              <Image className="sm:hidden hover:rounded-[48px] aspect-[2/2] bg-clip-content w-full rounded-2xl object-cover grayscale hover:grayscale-0 transition-all" width={280} height={280} src={person.imageUrl} alt="" />
+              <Image className="sm:hidden hover:rounded-[48px] aspect-[2/2] lg:flex xl:hidden bg-clip-content w-full rounded-2xl object-cover grayscale hover:grayscale-0 transition-all" width={280} height={280} src={person.imageUrl} alt="" />
               <span className={hedvigLettersSans.className}><h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-yellow-950">{person.name}</h3></span>
               <span className={hedvigLettersSans.className}><p className="text-base leading-7 text-yellow-950/60">{person.role}</p></span>
               <ul role="list" className="mt-6 flex gap-x-6">
