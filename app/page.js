@@ -10,7 +10,7 @@ export default function Home() {
     <div className='flex-col flex bg-[#f3f1e9]  w-screen overflow-x-hidden scroll-smooth'>
       <div className=' w-full mx-auto overflow-hidden scroll-smooth'>
         <Hero />      
-      </div>
+      </div> 
       <Section1 />
       <Section2 />
       <Footer />
