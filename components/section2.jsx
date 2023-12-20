@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 const hedvigLettersSans = Hedvig_Letters_Sans({ subsets: ['latin'], weight: ['400'] })
-
+ 
 const people = [
   {
     name: 'Lindsay Walton',
