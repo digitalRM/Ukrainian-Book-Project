@@ -31,8 +31,11 @@ export default function Footer() {
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="space-y-4 xl:col-span-1">          
             <a href="" className="">
-              <span className="sr-only">WSU - Ukrainian Book Project</span>
-              <h1 className="text-2xl font-bold text-[#f3f1e9]/90 h-fit w-fit  group "><span className={hedvigLettersSerif.className}><span className='sm:contents hidden font-bold'>WSU - </span><span className='font-bold group-hover:text-blue-600 transition-all'>Ukrainian</span> <span className='group-hover:text-yellow-400 font-bold transition-all'>Book</span><span className='font-bold'> Project</span></span></h1>
+              {/* <span className="sr-only">WSU - Ukrainian Book Project</span>
+              <h1 className="text-2xl font-bold text-[#f3f1e9]/90 h-fit w-fit  group "><span className={hedvigLettersSerif.className}><span className='sm:contents hidden font-bold'>WSU - </span><span className='font-bold group-hover:text-blue-600 transition-all'>Ukrainian</span> <span className='group-hover:text-yellow-400 font-bold transition-all'>Book</span><span className='font-bold'> Project</span></span></h1> */}
+              <span className="sr-only">Temporary Name</span>
+              <h1 className="text-2xl font-bold text-[#f3f1e9]/90 h-fit w-fit  group "><span className={hedvigLettersSerif.className}>Temporary Name</span></h1>
+
             </a>
             <p className="mt-8 text-[#b3b2a8] xl:mt-2 max-w-3xl">
               <span className={hedvigLettersSans.className}>
@@ -62,7 +65,7 @@ export default function Footer() {
           </div>
           <div className="mt-8 border-t border-[#f3f1e9]/20 pt-8 md:flex md:items-center md:justify-between">
             <p className="text-xs leading-5 text-[#f3f1e9]/90 md:order-1 mt-0">
-              &copy; 2024 WSU - Ukrainian Book Project. All Rights Reserved.
+              &copy; 2024 Temporary Name. All Rights Reserved.
             </p>
             <p className="text-xs leading-5 text-[#f3f1e9]/90 md:order-1 mt-8 sm:mt-0">
               Site by <a href='https://www.linkedin.com/in/ruslan-muk' className='text-[#f3f1e9] hover:text-[#f3f1e9]/70 transition-all'>Ruslan Mukhamedvaleev</a>

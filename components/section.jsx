@@ -10,7 +10,7 @@ export default function Section1() {
 
 
   return (
-    <div className='w-screen bg-[#211206] overflow-hidden '>
+    <div id='publications' className='w-screen bg-[#211206] overflow-hidden '>
 
 
       <div className="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">

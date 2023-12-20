@@ -106,10 +106,10 @@ export default function Section2() {
               </div>
               <Image className="sm:hidden hover:rounded-[48px] aspect-[2/2] lg:flex xl:hidden bg-clip-content w-full rounded-2xl object-cover grayscale hover:grayscale-0 transition-all" width={280} height={280} src={person.imageUrl} alt="" />
               <span className={hedvigLettersSans.className}><h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-yellow-950">{person.name}</h3></span>
-              <span className={hedvigLettersSans.className}><p className="text-base leading-7 text-yellow-950/60">{person.role}</p></span>
+              <span className={hedvigLettersSans.className}><p className="text-base leading-7 text-yellow-950/75">{person.role}</p></span>
               <ul role="list" className="mt-6 flex gap-x-6">
                 <li>
-                  <a href={person.linkedinUrl} className="text-yellow-950/60 hover:text-yellow-950/80">
+                  <a href={person.linkedinUrl} className="text-yellow-950/70 hover:text-yellow-950/80">
                     <span className="sr-only">LinkedIn</span>
                     <svg className="h-5 w-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
                       <path

@@ -24,7 +24,7 @@ const scale = useTransform(scrollYProgress, [0, 1], [0, 900]);
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
           <div className="mt-12 sm:mt-32 lg:mt-16 h-12">
           </div>
-          <h1 className="mt-10 text-2xl  font-bold text-yellow-950 sm:text-5xl">
+          <h1 className="mt-10 text-2xl font-semibold text-yellow-950 sm:text-5xl">
           Working to ensure availability of Ukrainian catalog records.
           </h1>
           <p className="mt-6 text-md sm:text-lg leading-8 text-yellow-950/80">
@@ -39,7 +39,7 @@ const scale = useTransform(scrollYProgress, [0, 1], [0, 900]);
               
               className="rounded-md bg-yellow-950 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-950/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-yellow-950"
             ><span className={hedvigLettersSans.className}>
-              View Research
+              View Findings
              </span>
             </a>
             <a href="#" className="text-sm font-semibold leading-6 text-yellow-950">
@@ -50,7 +50,7 @@ const scale = useTransform(scrollYProgress, [0, 1], [0, 900]);
         </div>
         <div className="mx-auto mt-0 flex max-w-xl sm:mt-24 lg:ml-4 lg:mr-0 lg:mt-0 overflow-visable lg:flex-none xl:ml-24">
           <motion.div style={{ translateY: scale}} className="mt-14 flex justify-end gap-6 sm:-mt-44 sm:justify-start sm:pl-20 lg:-mt-24 lg:pl-0">
-                  <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
+                  <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-none lg:pt-80">
                   <motion.div whileTap={{ cursor: 'grabbing'}} drag dragSnapToOrigin dragConstraints={{top: -50,left: -50,right: 50,bottom: 50,}} className="relative hover:cursor-grab">
                       <div className="aspect-[2/3] w-full rounded-xl rounded-l-none bg-[#5B3E24] object-cover shadow-lg overflow-hidden relative">
                       <div className=' absolute h-full w-9 bg-[#442914] left-0 top-0' />
@@ -76,7 +76,7 @@ const scale = useTransform(scrollYProgress, [0, 1], [0, 900]);
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </motion.div >
                   </div>
-                  <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
+                  <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last xl:order-none lg:pt-80">
 
                     <motion.div drag whileTap={{ cursor: 'grabbing'}} dragSnapToOrigin dragConstraints={{top: -50,left: -50,right: 50,bottom: 50,}} className="relative cursor-grab">
                        <div className="aspect-[2/3] w-full rounded-xl rounded-l-none bg-[#7D6A5A] object-cover shadow-xl">
