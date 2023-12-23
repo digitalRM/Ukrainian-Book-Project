@@ -20,10 +20,10 @@ export default function Heading() {
     <header className="px-6 sm:px-8 scroll-smooth">
       <nav className="mx-auto flex lg:max-w-7xl md:max-w-2xl items-center justify-between sm:py-12 py-6 xl:px-8 " aria-label="Global">
         <a href="" className="-m-1.5 p-1.5">
-          {/* <span className="sr-only">WSU - Ukrainian Book Project</span>
-          <h1 className="text-2xl font-semibold text-yellow-950  group "><span className=''><span className='sm:contents hidden'>WSU - </span><span className=' group-hover:text-blue-600 transition-all'>Ukrainian</span> <span className='group-hover:text-yellow-400 transition-all'>Book</span> Project</span></h1> */}
-          <span className="sr-only">Temporary Name</span>
-          <h1 className="text-2xl font-bold text-yellow-950  group "><span className=''>Temporary Name</span></h1>
+          <span className="sr-only">WSU - Ukrainian Book Project</span>
+          <h1 className="text-2xl font-semibold text-yellow-950  group "><span className=''><span className='sm:contents hidden'>WSU - </span><span className=' group-hover:text-blue-600 transition-all'>Ukrainian</span> <span className='group-hover:text-yellow-400 transition-all'>Book</span> Project</span></h1>
+          {/* <span className="sr-only">Temporary Name</span>
+          <h1 className="text-2xl font-bold text-yellow-950  group "><span className=''>Temporary Name</span></h1> */}
         </a>
         <div className="flex lg:hidden">
           <button
