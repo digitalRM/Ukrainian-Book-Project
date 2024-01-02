@@ -95,7 +95,7 @@ export default function Section2() {
           {people.map((person) => (
             <li key={person.name}>
               <div className='sm:contents hidden' style={{position: 'relative' }}>
-                <svg style={{ position: 'absolute', top: '0', left: '0' }}>
+                <svg style={{ position: 'absolute', top: '0', left: '0'}}>
                   <defs>
                     <clipPath id="clippy">
                       <path d="M0 16C0 7.16344 7.16344 0 16 0H216.5C225.337 0 232.5 7.16344 232.5 16V31.5C232.5 40.3366 239.663 47.5 248.5 47.5H264C272.837 47.5 280 54.6634 280 63.5V265C280 273.837 272.837 281 264 281H68C59.1634 281 52 273.837 52 265V245C52 236.163 44.8366 229 36 229H16C7.16344 229 0 221.837 0 213V16Z"/>

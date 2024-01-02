@@ -23,7 +23,7 @@ const navigation = {
 export default function Footer() {
   return (
     <footer className={hedvigLettersSans.className} aria-labelledby="footer-heading">
-      <div className='bg-[#211206] '>
+      <div className='bg-[#211206]'>
         <h2 id="footer-heading" className="sr-only">
           Footer
         </h2>
