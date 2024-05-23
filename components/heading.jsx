@@ -7,9 +7,9 @@ import { Lora } from 'next/font/google'
 const lora = Lora({ subsets: ['latin'], weight: ['500'] })
 
 const navigation = [
-  { name: 'Home', href: '#' },
+  { name: 'Home', href: '/' },
   { name: 'Members', href: '#members' },
-  { name: 'Publications', href: '#' },
+  { name: 'Publications', href: '#publications' },
 ]
 
 
@@ -22,8 +22,8 @@ export default function Heading() {
         <a href="" className="-m-1.5 p-1.5">
           {/* <span className="sr-only">WSU - Ukrainian Book Project</span>
           <h1 className="text-2xl font-semibold text-yellow-950  group "><span className=''><span className='sm:contents hidden'>WSU - </span><span className=' group-hover:text-blue-600 transition-all'>Ukrainian</span> <span className='group-hover:text-yellow-400 transition-all'>Book</span> Project</span></h1> */}
-          <span className="sr-only">Temporary Name</span>
-          <h1 className="text-2xl font-bold text-yellow-950  group "><span className=''>Temporary Name</span></h1>
+          <span className="sr-only">Ukranian Book Project</span>
+          <h1 className="text-2xl font-bold text-yellow-950  group "><span className=''>Ukranian Book Project</span></h1>
         </a>
         <div className="flex lg:hidden">
           <button
@@ -65,8 +65,8 @@ export default function Heading() {
             <a href="" className="-m-1.5 p-1.5">
                 {/* <span className="sr-only">WSU - Ukrainian Book Project</span>
                 <h1 className="text-2xl font-bold text-yellow-950  group "><span className=''><span className='lg:contents hidden'>WSU - </span><span className=' group-hover:text-blue-600 transition-all'>Ukrainian</span> <span className='group-hover:text-yellow-400 transition-all'>Book</span> Project</span></h1> */}
-                <span className="sr-only">Temporary Name</span>
-                <h1 className="text-2xl font-bold text-yellow-950  group "><span className=''>Temporary Name</span></h1>
+                <span className="sr-only">Ukranian Book Project</span>
+                <h1 className="text-2xl font-bold text-yellow-950  group "><span className=''>Ukranian Book Project</span></h1>
 
             </a>
             <button

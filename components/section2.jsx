@@ -3,40 +3,33 @@ import React from 'react'
 import { Hedvig_Letters_Sans } from 'next/font/google'
 import Image from 'next/image'
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { MailIcon } from 'lucide-react';
 
 const hedvigLettersSans = Hedvig_Letters_Sans({ subsets: ['latin'], weight: ['400'] })
 
 const people = [
   {
-    name: 'Lindsay Walton',
-    role: 'Front-end Developer',
+    name: 'Gabriella Reznowski',
+    role: 'Research Lead',
     imageUrl:
       'https://images.unsplash.com/photo-1702971916897-8f510b82d482?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    twitterUrl: '#',
+    emailUrl: 'mailto:reznowski@wsu.edu',
     linkedinUrl: '#',
   },
   {
-    name: 'John Doe',
-    role: 'Front-end Developer',
+    name: 'Emily Cukier',
+    role: 'Research Lead',
     imageUrl:
       'https://images.unsplash.com/photo-1701906268448-6c559049e58a?q=80&w=2954&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    twitterUrl: '#',
+    emailUrl: 'mailto:emily.cukier@wsu.edu',
     linkedinUrl: '#',
   },
   {
-    name: 'Johnny Appleseed',
-    role: 'Front-end Developer',
+    name: 'Ruslan Mukhamedvaleev',
+    role: 'Research Assistant',
     imageUrl:
-      'https://images.unsplash.com/photo-1701743807130-f5ee32ab3a73?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
-    name: 'Jane Red',
-    role: 'Front-end Developer',
-    imageUrl:
-      'https://images.unsplash.com/photo-1683009427590-dd987135e66c?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    twitterUrl: '#',
+      '/people/ruslan.jpeg',
+    emailUrl: 'mailto:ruslanmukhamedvaleev@gmail.com',
     linkedinUrl: '#',
   },
 ]
@@ -104,10 +97,10 @@ export default function Section2() {
                 </svg>
                 <Image className="aspect-[2/2]  hover:rounded-[48px] bg-clip-content lg:hidden  xl:flex w-full rounded-2xl object-cover grayscale hover:grayscale-0 transition-all" style={{ clipPath: 'url(#clippy)' }} width={280} height={280} src={person.imageUrl} alt="" />
               </div>
-              <Image className="sm:hidden hover:rounded-[48px] aspect-[2/2] lg:flex xl:hidden bg-clip-content w-full rounded-2xl object-cover grayscale hover:grayscale-0 transition-all" width={280} height={280} src={person.imageUrl} alt="" />
+              <Image className="sm:hidden hover:rounded-[48px] aspect-[2/2] lg:flex xl:hidden bg-clip-content w-full rounded-2xl object-cover grayscale hover:grayscale-0 hover:contrast-200 transition-all" width={280} height={280} src={person.imageUrl} alt="" />
               <span className={hedvigLettersSans.className}><h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-yellow-950">{person.name}</h3></span>
               <span className={hedvigLettersSans.className}><p className="text-base leading-7 text-yellow-950/75">{person.role}</p></span>
-              <ul role="list" className="mt-6 flex gap-x-6">
+              <ul role="list" className="mt-6 flex flex-row gap-x-2">
                 <li>
                   <a href={person.linkedinUrl} className="text-yellow-950/70 hover:text-yellow-950/80">
                     <span className="sr-only">LinkedIn</span>
@@ -118,6 +111,12 @@ export default function Section2() {
                         clipRule="evenodd"
                       />
                     </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href={person.emailUrl} className="text-yellow-950/70 hover:text-yellow-950/80">
+                    <span className="sr-only">Email</span>
+                    <MailIcon strokeWidth={2.5} className="h-5 w-5" />
                   </a>
                 </li>
               </ul>
