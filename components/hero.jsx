@@ -33,13 +33,12 @@ const rotate2 = useTransform(scrollYProgress, [0, 1], [0, -40]);
           </h1>
           <p className="mt-6 text-md sm:text-lg leading-8 text-yellow-950/80">
             <span className={hedvigLettersSans.className}>
-            We are researching and developing tools to ensure global access to Ukrainian book catalog records. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
+            We are researching and developing tools to help libraries and people access information about Ukrainian books. Our focus is primarily on records in libraries across the United States. 
             </span>
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <a
-              href="#"
+              href="#publications"
               
               className="rounded-md bg-yellow-950 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-950/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-yellow-950"
             ><span className={hedvigLettersSans.className}>

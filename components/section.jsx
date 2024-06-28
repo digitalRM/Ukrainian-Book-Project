@@ -7,7 +7,7 @@ import { ArrowUpRightSquareIcon, ChevronRight, ChevronRightSquare, ChevronRightS
 const hedvigLettersSans = Hedvig_Letters_Sans({ subsets: ['latin'], weight: ['400'] })
 export default function Section1() {
 
-
+  
 
   return (
     <div id='publications' className='w-screen bg-[#211206] overflow-hidden '>
@@ -21,7 +21,7 @@ export default function Section1() {
               What we've worked on.
             </h2>
             <p className="mt-3 max-w-2xl text-md font-thin text-[#b3b2a8]"><span className={hedvigLettersSans.className}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlato labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+            We are still in the early stages of what we want to accomplish with our project in the long term. These publications help show our early findings 
               </span>
             </p>
           </div>
