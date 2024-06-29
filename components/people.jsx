@@ -12,17 +12,17 @@ const people = [
     name: 'Gabriella Reznowski',
     role: 'Research Lead',
     imageUrl:
-      'https://images.unsplash.com/photo-1702971916897-8f510b82d482?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      '/people/gabriella.png',
     emailUrl: 'mailto:reznowski@wsu.edu',
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/gabriella-reznowski-84b013184/',
   },
   {
     name: 'Emily Cukier',
     role: 'Research Lead',
     imageUrl:
-      'https://images.unsplash.com/photo-1701906268448-6c559049e58a?q=80&w=2954&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      '/people/emily.png',
     emailUrl: 'mailto:emily.cukier@wsu.edu',
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/emily-cukier/',
   },
   {
     name: 'Ruslan Mukhamedvaleev',
@@ -30,7 +30,7 @@ const people = [
     imageUrl:
       '/people/ruslan.jpeg',
     emailUrl: 'mailto:ruslanmukhamedvaleev@gmail.com',
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/ruslan-muk/',
   },
 ]
 
@@ -72,12 +72,12 @@ export default function Section2() {
      
 <div id="members" className=" py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
+        <div className="mx-auto max-w-[590px] lg:mx-0">
           <h2 className="text-2xl font-bold text-yellow-950 sm:text-4xl">Who we are.</h2>
           <span className={hedvigLettersSans.className}>
             <p className="mt-6 text-md sm:text-lg leading-8 text-yellow-950/80">
             
-            Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Velit egestas dui id ornare. Sit amet consectetur adipiscing elit ut aliquam purus sit amet.
+            Our priority is simple: help librarians and people across the United States access information about Ukrainian literature collections. 
             </p>
           </span>
         </div>
@@ -97,7 +97,7 @@ export default function Section2() {
                 </svg>
                 <Image className="aspect-[2/2]  hover:rounded-[48px] bg-clip-content lg:hidden  xl:flex w-full rounded-2xl object-cover grayscale hover:grayscale-0 transition-all" style={{ clipPath: 'url(#clippy)' }} width={280} height={280} src={person.imageUrl} alt="" />
               </div>
-              <Image className="sm:hidden hover:rounded-[48px] aspect-[2/2] lg:flex xl:hidden bg-clip-content w-full rounded-2xl object-cover grayscale hover:grayscale-0 hover:contrast-200 transition-all" width={280} height={280} src={person.imageUrl} alt="" />
+              <Image className="sm:hidden hover:rounded-[48px] aspect-[2/2] lg:flex xl:hidden bg-clip-content w-full rounded-2xl object-cover grayscale hover:grayscale-0 transition-all" width={280} height={280} src={person.imageUrl} alt="" />
               <span className={hedvigLettersSans.className}><h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-yellow-950">{person.name}</h3></span>
               <span className={hedvigLettersSans.className}><p className="text-base leading-7 text-yellow-950/75">{person.role}</p></span>
               <ul role="list" className="mt-6 flex flex-row gap-x-2">

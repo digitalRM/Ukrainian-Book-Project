@@ -72,7 +72,7 @@ export default function Section1() {
                 />
             </div>
               <p className="mt-8 text-base text-[#b3b2a8]"><span className={hedvigLettersSans.className}>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.
+              Our paper explores the state of Ukrainian literature collections across U.S. public libraries. We were interested in Ukrainian language-based collections specifically because of the 2022 full-scale military invasion of Ukraine. 
                 </span>
               </p>
               <a href="#" className="mt-4 block text-md font-semibold hover:text-[#f3f1e9]/70 text-[#f3f1e9]/90 w-fit">
@@ -81,7 +81,7 @@ export default function Section1() {
             </div>
           </div>
         </section>
-      </div>
+      </div> 
     </div>
   )
 }

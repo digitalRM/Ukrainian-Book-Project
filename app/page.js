@@ -1,8 +1,8 @@
 import Footer from '@/components/footer'
 import Heading from '@/components/heading'
 import Hero from '@/components/hero'
-import Section1 from '@/components/section'
-import Section2 from '@/components/section2'
+import Section1 from '@/components/publications'
+import Section2 from '@/components/people'
 import Image from 'next/image'
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       </div> 
       <Section1 />
       <Section2 />
-      <Footer />
+      <Footer /> 
 
     </div>
   )
