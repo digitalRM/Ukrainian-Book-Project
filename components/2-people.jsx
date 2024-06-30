@@ -36,11 +36,11 @@ const people = [
 
 export default function Section2() {
   const { scrollYProgress } = useScroll();
-  const pathLength3 = useTransform(scrollYProgress, [0.6, 0.8], [0, 1]);
-  const pathLength2 = useTransform(scrollYProgress, [0.81, 0.95], [0, 1]);
+  const pathLength3 = useTransform(scrollYProgress, [0.35, 0.5], [0, 1]);
+  const pathLength2 = useTransform(scrollYProgress, [0.5, 0.6], [0, 1]);
   
   return (
-    <div className='w-screen bg-[#f3f1e9] overflow-hidden '>
+    <div id="members" className='w-screen bg-[#f3f1e9] overflow-hidden '>
       <div className='w-screen h-full relative'>
         <motion.svg className='absolute lg:flex hidden right-0 -mt-[3px]' width="699" height="282" viewBox="0 0 699 282" fill="none" xmlns="http://www.w3.org/2000/svg">
         <motion.path
@@ -75,7 +75,7 @@ export default function Section2() {
         <div className="mx-auto max-w-[590px] lg:mx-0">
           <h2 className="text-2xl font-bold text-yellow-950 sm:text-4xl">Who we are.</h2>
           <span className={hedvigLettersSans.className}>
-            <p className="mt-6 text-md sm:text-lg leading-8 text-yellow-950/80">
+            <p className="mt-6 text-md sm:text-lg sm:leading-8 text-yellow-950/80">
             
             Our priority is simple: help librarians and people across the United States access information about Ukrainian literature collections. 
             </p>

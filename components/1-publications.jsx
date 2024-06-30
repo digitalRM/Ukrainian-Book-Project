@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 
 import { Hedvig_Letters_Sans } from 'next/font/google'
-import { ArrowUpRightSquareIcon, ChevronRight, ChevronRightSquare, ChevronRightSquareIcon } from 'lucide-react'
+import { ArrowUpRightSquareIcon, ChevronRight, ChevronRightSquare, ChevronRightSquareIcon, Clock, ClockIcon } from 'lucide-react'
 const hedvigLettersSans = Hedvig_Letters_Sans({ subsets: ['latin'], weight: ['400'] })
 export default function Section1() {
 
@@ -75,9 +75,10 @@ export default function Section1() {
               Our paper explores the state of Ukrainian literature collections across U.S. public libraries. We were interested in Ukrainian language-based collections specifically because of the 2022 full-scale military invasion of Ukraine. 
                 </span>
               </p>
-              <a href="#" className="mt-4 block text-md font-semibold hover:text-[#f3f1e9]/70 text-[#f3f1e9]/90 w-fit">
-                <span className={hedvigLettersSans.className}>View Paper </span><ArrowUpRightSquareIcon aria-hidden="true" className='inline' size={16} />  
-              </a>
+              <h1 href="#" className="mt-4 block text-md font-semibold  text-[#f3f1e9]/90 w-fit">
+                {/* <span className={hedvigLettersSans.className}>View Paper </span><ArrowUpRightSquareIcon aria-hidden="true" className='inline' size={16} />   */}
+                Explore Soon <ClockIcon aria-hidden="true" className='inline' size={16} />
+              </h1>
             </div>
           </div>
         </section>

@@ -45,7 +45,7 @@ const rotate2 = useTransform(scrollYProgress, [0, 1], [0, -40]);
               View Findings
              </span>
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-yellow-950">
+            <a href="#learn-more" className="text-sm font-semibold leading-6 text-yellow-950">
             <span className={hedvigLettersSans.className}>
               Learn More</span>
             </a>
