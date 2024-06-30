@@ -15,7 +15,7 @@ export default function hero() {
 );
 
 // start the translationY at zero pixels and then as you scroll down it will go to 500 pixels
-const scale = useTransform(scrollYProgress, [0, 1], [0, 900]);
+const scale = useTransform(scrollYProgress, [0, 1], [0, 1900]);
 const scaleTest = useTransform(scrollYProgress, [0, 1], [0, -200]);
 const scaleTest2 = useTransform(scrollYProgress, [0, 1], [0, 200]);
 const rotate = useTransform(scrollYProgress, [0, 1], [0, 100]);
