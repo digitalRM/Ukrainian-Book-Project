@@ -95,9 +95,9 @@ export default function Section2() {
                     </clipPath>
                   </defs>
                 </svg>
-                <Image className="aspect-[2/2]  hover:rounded-[48px] bg-clip-content lg:hidden  xl:flex w-full rounded-2xl object-cover grayscale hover:grayscale-0 transition-all" style={{ clipPath: 'url(#clippy)' }} width={280} height={280} src={person.imageUrl} alt="" />
+                <Image className="aspect-[2/2]  hover:rounded-[48px] bg-clip-content lg:hidden  xl:flex w-full rounded-2xl object-cover grayscale hover:grayscale-0 transition-all" style={{ clipPath: 'url(#clippy)' }} width={280} height={280} src={person.imageUrl} alt={"Photo of " + person.name} />
               </div>
-              <Image className="sm:hidden hover:rounded-[48px] aspect-[2/2] lg:flex xl:hidden bg-clip-content w-full rounded-2xl object-cover grayscale hover:grayscale-0 transition-all" width={280} height={280} src={person.imageUrl} alt="" />
+              <Image className="sm:hidden hover:rounded-[48px] aspect-[2/2] lg:flex xl:hidden bg-clip-content w-full rounded-2xl object-cover grayscale hover:grayscale-0 transition-all" width={280} height={280} src={person.imageUrl} alt={"Photo of " + person.name} />
               <span className={hedvigLettersSans.className}><h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-yellow-950">{person.name}</h3></span>
               <span className={hedvigLettersSans.className}><p className="text-base leading-7 text-yellow-950/75">{person.role}</p></span>
               <ul role="list" className="mt-6 flex flex-row gap-x-2">
