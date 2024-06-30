@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
-import { ArrowUpRight, ArrowUpRightSquare, ArrowUpRightSquareIcon, Book, LibrarySquareIcon, Menu, SquareAsteriskIcon, SquareUserRoundIcon, X } from 'lucide-react'
+import { ArrowDownSquare, ArrowUpRight, ArrowUpRightSquare, ArrowUpRightSquareIcon, Book, LibrarySquareIcon, Mail, Menu, MessageSquareDotIcon, SquareAsteriskIcon, SquareUserRoundIcon, X } from 'lucide-react'
 
 import { Lora } from 'next/font/google'
 const lora = Lora({ subsets: ['latin'], weight: ['500'] })
@@ -51,9 +51,9 @@ export default function Heading() {
                 Publications <LibrarySquareIcon className='inline mb-0.5' size={16} />           
                 </span>
             </a>
-            <a href='/' className="text-md font-semibold tracking-wide leading-6 text-yellow-950">
+            <a href='#contact' className="text-md font-semibold tracking-wide leading-6 text-yellow-950">
                 <span className={lora.className}>
-                  Tools <ArrowUpRightSquareIcon className='inline mb-0.5' size={16} />           
+                  Contact <ArrowDownSquare className='inline mb-0.5' size={16} />           
                 </span>
             </a>
         </div>

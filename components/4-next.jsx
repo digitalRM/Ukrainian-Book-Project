@@ -31,7 +31,7 @@ export default function Section4() {
       
 
      
-<div id="members" className=" py-24 sm:py-32">
+<div id="contact" className=" py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-[590px] lg:mx-0">
           <h2 className="text-2xl font-bold text-yellow-950 sm:text-4xl">Contact Us</h2>
