@@ -16,7 +16,7 @@ export default function Home() {
       <Publications />
       <People />
       <Why />
-      <Resources />
+      <Resources /> 
       <Footer />
     </div>
   );

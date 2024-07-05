@@ -11,9 +11,25 @@ import {
   X,
 } from "lucide-react";
 
-import { Lora } from "next/font/google";
+import { Dialog as Dia } from '@/components/ui/dialog'
+import {
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+
+
+import { Hedvig_Letters_Sans, Lora } from "next/font/google";
+import { ContactDialog } from "./ui/contact-dialog";
 
 const lora = Lora({ subsets: ["latin"], weight: ["500"] });
+const hedvigLettersSans = Hedvig_Letters_Sans({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 export default function Heading() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -78,14 +94,7 @@ export default function Heading() {
               <LibrarySquareIcon className="inline mb-0.5" size={16} />
             </span>
           </a>
-          <a
-            href="#contact"
-            className="text-md font-semibold tracking-wide leading-6 text-yellow-950"
-          >
-            <span className={lora.className}>
-              Contact <ArrowDownSquare className="inline mb-0.5" size={16} />
-            </span>
-          </a>
+          <ContactDialog />
         </div>
       </nav>
       <Dialog
@@ -155,10 +164,11 @@ export default function Heading() {
                     Tools
                   </span>
                 </a>
+                <ContactDialog className="mt-12" />
               </div>
             </div>
             <div className="mx-auto mt-0 flex max-w-xl sm:mt-24 lg:ml-4 lg:mr-0 lg:mt-0 overflow-visable lg:flex-none xl:ml-24">
-              <div className="mt-14 flex justify-end gap-6 sm:-mt-44 sm:justify-start sm:pl-20 lg:-mt-24 lg:pl-0">
+              <div className="mt-14 flex justify-end gap-6 sm:-mt-24 sm:justify-start sm:pl-20 lg:-mt-24 lg:pl-0 z-0">
                 <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                   <div className="relative">
                     <div className="aspect-[2/3] w-full rounded-xl rounded-l-none bg-[#5B3E24] object-cover shadow-lg overflow-hidden relative">
