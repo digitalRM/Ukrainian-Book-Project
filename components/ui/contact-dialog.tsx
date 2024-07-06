@@ -83,7 +83,7 @@ export function ContactDialog() {
                   name="entry.137060741"
                   id="name"
                   autoComplete="name"
-                  className="block w-full shadow-sm sm:text-sm focus:ring-yellow-950 focus:border-yellow-950 border-yellow-950 rounded-md h-12 p-4 bg-[#fffef9] font-sans"
+                  className="block w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-yellow-950 focus:border-yellow-950 border-yellow-950 rounded-md h-12 p-4 bg-[#fffef9] font-sans"
                 />
               </div>
             </div>
@@ -100,7 +100,7 @@ export function ContactDialog() {
                   name="entry.802603831"
                   type="email"
                   autoComplete="email"
-                  className="block w-full shadow-sm sm:text-sm focus:ring-yellow-950 focus:border-yellow-950 border-yellow-950 rounded-md h-12 p-4 bg-[#fffef9] font-sans"
+                  className="block w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-yellow-950 focus:border-yellow-950 border-yellow-950 rounded-md h-12 p-4 bg-[#fffef9] font-sans"
                 />
               </div>
             </div>
@@ -116,7 +116,7 @@ export function ContactDialog() {
                   id="message"
                   name="entry.895958623"
                   rows={4}
-                  className="block max-h-36 w-full shadow-sm sm:text-sm focus:ring-yellow-950  focus:border-yellow-950 border-yellow-950 rounded-md p-4 bg-[#fffef9] font-sans"
+                  className="block max-h-36 w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-yellow-950  focus:border-yellow-950 border-yellow-950 rounded-md p-4 bg-[#fffef9] font-sans"
                   defaultValue={""}
                 />
               </div>
@@ -181,7 +181,7 @@ export function ContactDialog() {
                 name="entry.137060741"
                 id="name"
                 autoComplete="name"
-                className="block w-full shadow-sm sm:text-sm focus:ring-yellow-950 focus:border-yellow-950 border-yellow-950 rounded-md h-12 p-4 bg-[#fffef9] font-sans"
+                className="block w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-yellow-950 focus:border-yellow-950 border-yellow-950 rounded-md h-12 p-4 bg-[#fffef9] font-sans"
               />
             </div>
           </div>
@@ -198,7 +198,7 @@ export function ContactDialog() {
                 name="entry.802603831"
                 type="email"
                 autoComplete="email"
-                className="block w-full shadow-sm sm:text-sm focus:ring-yellow-950 focus:border-yellow-950 border-yellow-950 rounded-md h-12 p-4 bg-[#fffef9] font-sans"
+                className="block w-full focus:outline-none shadow-sm focus:ring-2sm:text-sm focus:ring-yellow-950 focus:border-yellow-950 border-yellow-950 rounded-md h-12 p-4 bg-[#fffef9] font-sans"
               />
             </div>
           </div>
@@ -214,7 +214,7 @@ export function ContactDialog() {
                 id="message"
                 name="entry.895958623"
                 rows={4}
-                className="block max-h-36 w-full shadow-sm sm:text-sm focus:ring-yellow-950  focus:border-yellow-950 border-yellow-950 rounded-md p-4 bg-[#fffef9] font-sans"
+                className="block max-h-36 w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-yellow-950  focus:border-yellow-950 border-yellow-950 rounded-md p-4 bg-[#fffef9] font-sans"
                 defaultValue={""}
               />
             </div>
