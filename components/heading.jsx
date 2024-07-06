@@ -37,7 +37,7 @@ export default function Heading() {
   return (
     <header className="px-6 sm:px-8 scroll-smooth">
       <nav
-        className="mx-auto flex lg:max-w-7xl md:max-w-2xl items-center justify-between sm:py-12 py-6 xl:px-8 "
+        className="mx-auto flex lg:max-w-7xl md:max-w-2xl items-center justify-between sm:py-12 py-6 xl:px-8 scroll-smooth"
         aria-label="Global"
       >
         <a href="" className="-m-1.5 p-1.5">
