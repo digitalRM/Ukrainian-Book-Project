@@ -1,3 +1,5 @@
+'use client'
+
 import * as React from "react";
 
 import { cn } from "@/lib/utils";
@@ -40,11 +42,10 @@ export function ContactDialog() {
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogTrigger
           className="text-md font-semibold tracking-wide leading-6 text-yellow-950 cursor-pointer"
-          asChild
         >
           <span className={lora.className}>
             <ArrowDownSquare
-              className="mb-0.5 mr-2 lg:mr-0 inline lg:hidden"
+              className="mb-0.5 inline mr-2 lg:mr-0 lg:hidden" 
               size={16}
             />{" "}
             Contact{" "}
@@ -138,11 +139,10 @@ export function ContactDialog() {
     <Drawer open={open} onOpenChange={setOpen}>
       <DrawerTrigger
         className="text-md font-semibold tracking-wide leading-6 text-yellow-950 cursor-pointer"
-        asChild
       >
         <span className={lora.className}>
           <ArrowDownSquare
-            className="mb-0.5 inline mr-2 lg:mr-0  lg:hidden"
+            className="mb-0.5 inline mr-2 lg:mr-0 lg:hidden"
             size={16}
           />{" "}
           Contact{" "}

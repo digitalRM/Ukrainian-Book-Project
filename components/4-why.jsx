@@ -31,7 +31,7 @@ export default function Why() {
     >
       <div className="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
         {/* Details section */}
-        <section aria-labelledby="details-heading">
+        <section aria-labelledby="why-we-are-doing-this-heading">
           <div className="flex flex-col items-left text-left">
             <h2
               id="details-heading"
@@ -72,23 +72,23 @@ export default function Why() {
                 </div>
               </div>
               <div className="lg:flex lg:flex-auto lg:justify-center">
-                <dl className="w-full space-y-8 xl:w-80 lg:mt-14">
+                <div className="w-full space-y-8 xl:w-80 lg:mt-14">
                   {stats.map((stat) => (
                     <div
                       key={stat.label}
                       className="flex flex-col-reverse gap-y-4 w-full lg:max-w-72"
                     >
                       <span className={hedvigLettersSans.className}>
-                        <dt className="text-base leading-7 text-[#f3f1e9]/70">
+                        <div className="text-base leading-7 text-[#f3f1e9]/70">
                           {stat.label}
-                        </dt>
+                        </div>
                       </span>
-                      <dd className="text-5xl font-semibold text-[#f3f1e9]/90 ">
+                      <div className="text-5xl font-semibold text-[#f3f1e9]/90 ">
                         {stat.value}
-                      </dd>
+                      </div>
                     </div>
                   ))}
-                </dl>
+                </div>
               </div>
             </div>
           </div>
