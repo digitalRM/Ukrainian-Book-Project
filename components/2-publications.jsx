@@ -29,7 +29,7 @@ export default function Publications() {
             </p>
           </div>
           <div className="mt-12 grid grid-cols-1 grid-rows-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
-            <a href="https://public.tableau.com/app/profile/r.m2481/viz/LocationsofUkrainian-languagebooksbasedonOCLCdata_/Sheet1">
+            <a href="https://public.tableau.com/app/profile/r.m2481/viz/LocationsofUkrainian-languagebooksbasedonOCLCdata-August2024/Sheet1">
               <div className="aspect-h-2 aspect-w-3 w-full overflow-hidden rounded-lg h-[330.41px]">
                 <img
                   src="./viz.png"
@@ -42,8 +42,7 @@ export default function Publications() {
                   This visualization shows the locations of Ukrainian language
                   materials in libraries across the United States. The data was
                   obtained from the Online Computer Library Center (OCLC) and
-                  visualized using Tableau. Data collected by the cutoff of
-                  January 9, 2024, for our research project.
+                  visualized using Tableau.
                 </span>
               </p>
               <span className="mt-4 block text-md font-semibold hover:text-[#f3f1e9]/70 text-[#f3f1e9]/90 w-fit">
@@ -85,33 +84,6 @@ export default function Publications() {
                 />
               </span>
             </a>
-            <div>
-              <div className="aspect-h-2 aspect-w-3 w-full overflow-hidden rounded-lg h-[330.41px]">
-                <Image
-                  src="/paper.png"
-                  alt="Front zipper pouch with included key ring."
-                  className="h-full w-full object-cover object-center grayscale hover:grayscale-0"
-                  width={592}
-                  height={330.41}
-                />
-              </div>
-              <p className="mt-8 text-base text-[#b3b2a8]">
-                <span className={hedvigLettersSans.className}>
-                  Our paper explores the state of Ukrainian literature
-                  collections across U.S. public libraries. We were interested
-                  in Ukrainian language-based collections specifically because
-                  of the 2022 full-scale military invasion of Ukraine.
-                </span>
-              </p>
-              <h1
-                href="#"
-                className="mt-4 block text-md font-semibold  text-[#f3f1e9]/90 w-fit"
-              >
-                {/* <span className={hedvigLettersSans.className}>View Paper </span><ArrowUpRightSquareIcon aria-hidden="true" className='inline' size={16} />   */}
-                Explore Soon{" "}
-                <ClockIcon aria-hidden="true" className="inline" size={16} />
-              </h1>
-            </div>
           </div>
         </section>
       </div>
