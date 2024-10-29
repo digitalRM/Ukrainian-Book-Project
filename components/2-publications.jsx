@@ -39,10 +39,15 @@ export default function Publications() {
               </div>
               <p className="mt-8 text-base text-[#b3b2a8]">
                 <span className={hedvigLettersSans.className}>
-                  This visualization shows the locations of Ukrainian language
-                  materials in libraries across the United States. The data was
-                  obtained from the Online Computer Library Center (OCLC) and
-                  visualized using Tableau.
+                  Our primary data source was OCLC, a global library
+                  organization that compiles standardized library catalog and
+                  holding data for its members. We used it to obtain catalog
+                  records for books in the Ukrainian language, library holdings
+                  data for the books, and library type and location data
+                  (geographic coordinates). We used Tableau software to create
+                  the visualization. Note that holding data does not guarantee
+                  that books are available to the public for reading or
+                  checkout.
                 </span>
               </p>
               <span className="mt-4 block text-md font-semibold hover:text-[#f3f1e9]/70 text-[#f3f1e9]/90 w-fit">
