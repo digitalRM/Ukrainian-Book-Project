@@ -48,7 +48,9 @@ export default function Hero() {
               href="#learn-more"
               className="text-sm font-semibold leading-6 text-yellow-950"
             >
-              <span className={hedvigLettersSans.className}>Learn More</span>
+              <span className={hedvigLettersSans.className}>
+                Why this work?
+              </span>
             </a>
           </div>
         </div>
