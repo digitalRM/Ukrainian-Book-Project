@@ -58,7 +58,7 @@ export const metadata = {
   other: {
     citation_journal_title: "Ukrainian Book Project",
     citation_publisher: "Ukrainian Book Project",
-    citation_journal_abbrev: "UBP",
+    citation_journal_abbrev: "Ukrainian Book Project",
     citation_language: "en",
     "dc.language": "en",
     "dc.type": "Research Project",
