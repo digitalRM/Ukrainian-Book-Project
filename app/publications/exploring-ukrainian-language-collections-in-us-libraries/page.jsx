@@ -89,7 +89,7 @@ export default function ExploringUkrainianCollections() {
             <header className="mb-16 text-center">
               <span className={hedvigLettersSans.className}>
                 <p className="mb-2 text-center text-sm text-yellow-950">
-                  <time dateTime="2024-11-08">Published: 2024-11-08</time>
+                  <time dateTime="2024-11-08">Published: 2024-11-08 </time>
                   <time dateTime="2024-12-28">Last updated: 2024-12-28</time>
                 </p>
               </span>
