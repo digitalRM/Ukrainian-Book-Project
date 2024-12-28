@@ -2,6 +2,7 @@ import React from "react";
 import { Hedvig_Letters_Sans } from "next/font/google";
 import Heading from "@/components/heading";
 import Footer from "@/components/footer";
+import { ArrowUpRightSquareIcon } from "lucide-react";
 
 const hedvigLettersSans = Hedvig_Letters_Sans({
   subsets: ["latin"],
@@ -159,9 +160,21 @@ export default function LocationsOfUkrainianBooks() {
                   </section>
 
                   <section>
-                    <h2 className="text-xl font-semibold text-yellow-950 mb-4">
-                      Interactive Visualization
-                    </h2>
+                    <a
+                      href="https://public.tableau.com/app/profile/r.m2481/viz/LocationsofUkrainian-languagebooksbasedonOCLCdata-August2024/Sheet1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h2 className="text-xl font-semibold text-yellow-950 mb-4">
+                        Interactive Visualization
+                        <ArrowUpRightSquareIcon
+                          aria-hidden="true"
+                          className="inline ml-1"
+                          strokeWidth={1.5}
+                          size={20}
+                        />
+                      </h2>
+                    </a>
 
                     <a
                       href="https://public.tableau.com/app/profile/r.m2481/viz/LocationsofUkrainian-languagebooksbasedonOCLCdata-August2024/Sheet1"

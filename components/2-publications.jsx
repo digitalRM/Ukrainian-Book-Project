@@ -29,7 +29,7 @@ export default function Publications() {
             </p>
           </div>
           <div className="mt-12 grid grid-cols-1 grid-rows-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
-            <a href="https://public.tableau.com/app/profile/r.m2481/viz/LocationsofUkrainian-languagebooksbasedonOCLCdata-August2024/Sheet1">
+            <a href="/publications/locations-of-ukrainian-language-books-based-on-oclc-data">
               <div className="aspect-h-2 aspect-w-3 w-full overflow-hidden rounded-lg h-[330.41px]">
                 <img
                   src="./viz.png"
