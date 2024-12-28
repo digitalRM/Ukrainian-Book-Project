@@ -194,6 +194,20 @@ export default function LocationsOfUkrainianBooks() {
                       </figure>
                     </a>
                   </section>
+
+                  <section>
+                    <h2 className="text-xl font-semibold text-yellow-950 mb-4">
+                      Acknowledgments
+                    </h2>
+                    <ul className="list-disc pl-6 mb-8">
+                      <li>
+                        Sergey Lapin, Vice Chancellor for Research, WSU Everett
+                        and Associate Director of Data Analytics
+                      </li>
+                      <li>WSU Libraries</li>
+                      <li>OCLC</li>
+                    </ul>
+                  </section>
                 </span>
               </div>
             </article>
