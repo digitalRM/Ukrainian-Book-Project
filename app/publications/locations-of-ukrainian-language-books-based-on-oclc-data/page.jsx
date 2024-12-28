@@ -47,7 +47,11 @@ export const metadata = {
     ],
     citation_publication_date: "2024",
     citation_journal_title: "Ukrainian Book Project",
-    citation_author_institution: ["WSU Libraries"],
+    citation_author_institution: [
+      "Kamiak High School",
+      "WSU Libraries",
+      "WSU Libraries",
+    ],
     citation_abstract:
       "We sought to create an interactive map of Ukrainian books across American public libraries. Our primary data source for this project was OCLC, a global library organization that compiles standardized library catalogs and holding data for its members. We used it to obtain catalog records for books in the Ukrainian language, library holdings data for the books, and library type and location data (geographic coordinates). We used Tableau software to create the visualization. Note that holding data does not guarantee that books are available to the public for reading or checkout. We hope this map will be useful for improving the state of Ukrainian language collections to serve communities in the United States.",
     citation_keywords:
