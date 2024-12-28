@@ -53,8 +53,8 @@ export default function Heading() {
               Project
             </span>
           </h1>
-          {/* <span className="sr-only">Ukranian Book Project</span>
-          <h1 className="text-2xl font-bold text-yellow-950  group "><span className=''>Ukranian Book Project</span></h1> */}
+          {/* <span className="sr-only">Ukrainian Book Project</span>
+          <h1 className="text-2xl font-bold text-yellow-950  group "><span className=''>Ukrainian Book Project</span></h1> */}
         </a>
         <div className="flex lg:hidden">
           <button
@@ -108,9 +108,9 @@ export default function Heading() {
             <a href="" className="-m-1.5 p-1.5">
               {/* <span className="sr-only">WSU - Ukrainian Book Project</span>
                 <h1 className="text-2xl font-bold text-yellow-950  group "><span className=''><span className='lg:contents hidden'>WSU - </span><span className=' group-hover:text-blue-600 transition-all'>Ukrainian</span> <span className='group-hover:text-yellow-400 transition-all'>Book</span> Project</span></h1> */}
-              <span className="sr-only">Ukranian Book Project</span>
+              <span className="sr-only">Ukrainian Book Project</span>
               <h1 className="text-2xl font-bold text-yellow-950  group ">
-                <span className="">Ukranian Book Project</span>
+                <span className="">Ukrainian Book Project</span>
               </h1>
             </a>
             <button
