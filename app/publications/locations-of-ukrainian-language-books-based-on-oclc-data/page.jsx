@@ -19,8 +19,8 @@ export const metadata = {
       "We sought to create an interactive map of Ukrainian books across American public libraries. Our primary data source for this project was OCLC, a global library organization that compiles standardized library catalogs and holding data for its members. We used it to obtain catalog records for books in the Ukrainian language, library holdings data for the books, and library type and location data (geographic coordinates). We used Tableau software to create the visualization. Note that holding data does not guarantee that books are available to the public for reading or checkout. We hope this map will be useful for improving the state of Ukrainian language collections to serve communities in the United States.",
     type: "article",
     authors: ["Ruslan Mukhamedvaleev", "Emily Cukier", "Gabriella Reznowski"],
-    publishedTime: "2024",
-    modifiedTime: "2024",
+    publishedTime: "2024-08-20",
+    modifiedTime: "2024-08-20",
   },
   authors: [
     { name: "Ruslan Mukhamedvaleev", url: "https://libraries.wsu.edu/" },
@@ -45,7 +45,7 @@ export const metadata = {
       "Emily Cukier",
       "Gabriella Reznowski",
     ],
-    citation_publication_date: "2024",
+    citation_publication_date: "2024-08-20",
     citation_journal_title: "Ukrainian Book Project",
     citation_author_institution: [
       "Kamiak High School",
@@ -65,14 +65,14 @@ export const metadata = {
       "Emily Cukier",
       "Gabriella Reznowski",
     ],
-    "dc.date": "2024",
+    "dc.date": "2024-08-20",
     "dc.publisher": "Ukrainian Book Project",
     "dc.type": "Research Article",
     "dc.format": "text/html",
     "dc.language": "en",
     "dc.rights": "All rights reserved",
-    "article:published_time": "2024",
-    "article:modified_time": "2024",
+    "article:published_time": "2024-08-20",
+    "article:modified_time": "2024-08-20",
     "article:section": "Research",
     "article:tag": "Ukrainian Collections",
   },
@@ -89,7 +89,8 @@ export default function LocationsOfUkrainianBooks() {
             <header className="mb-16 text-center">
               <span className={hedvigLettersSans.className}>
                 <p className="mb-2 text-center text-sm text-yellow-950">
-                  <time dateTime="2024">Published: 2024</time>
+                  <time dateTime="2024-08-20">Published: 2024-08-20</time>
+                  <time dateTime="2024-08-20">Last updated: 2024-08-20</time>
                 </p>
               </span>
               <h1 className="text-3xl font-bold mx-auto text-pretty max-w-xl text-yellow-950 sm:text-4xl mb-6">

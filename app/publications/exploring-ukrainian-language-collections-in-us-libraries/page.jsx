@@ -11,15 +11,15 @@ const hedvigLettersSans = Hedvig_Letters_Sans({
 export const metadata = {
   title: "Exploring Ukrainian Language Collections in US Libraries",
   description:
-    "An edited version of the presentation at the Association for Computers and the Humanities 2024 conference, examining Ukrainian language collections in US libraries and the challenges of building these collections.",
+    "An edited version of the presentation at the Association for Computers and the Humanities 2024 conference, examining Ukrainian language collections in US libraries and the challenges of building these collections. This research examines the landscape of Ukrainian language collections in US libraries, addressing the challenges of building these collections and supporting Ukrainian refugees through library services. The project uses bibliographic data at scale to map and analyze Ukrainian language holdings across US libraries.",
   openGraph: {
     title: "Exploring Ukrainian Language Collections in US Libraries",
     description:
       "This research examines the landscape of Ukrainian language collections in US libraries, addressing the challenges of building these collections and supporting Ukrainian refugees through library services. The project uses bibliographic data at scale to map and analyze Ukrainian language holdings across US libraries.",
     type: "article",
     authors: ["Emily Cukier", "Ruslan Mukhamedvaleev", "Gabriella Reznowski"],
-    publishedTime: "2024",
-    modifiedTime: "2024",
+    publishedTime: "2024-11-08",
+    modifiedTime: "2024-12-28",
   },
   authors: [
     { name: "Emily Cukier", url: "https://libraries.wsu.edu/" },
@@ -44,7 +44,7 @@ export const metadata = {
       "Ruslan Mukhamedvaleev",
       "Gabriella Reznowski",
     ],
-    citation_publication_date: "2024",
+    citation_publication_date: "2024-11-08",
     citation_journal_title:
       "Association for Computers and the Humanities Conference",
     citation_author_institution: [
@@ -53,7 +53,7 @@ export const metadata = {
       "WSU Libraries",
     ],
     citation_abstract:
-      "This research examines the landscape of Ukrainian language collections in US libraries, addressing the challenges of building these collections and supporting Ukrainian refugees through library services. The project uses bibliographic data at scale to map and analyze Ukrainian language holdings across US libraries.",
+      "Russia began the invasion of Ukraine on February 24, 2022. This invasion does not just affect people and their sovereignty, but the entire Ukrainian culture is under attack: Russia's bombing targets specifically include Ukrainian libraries and other cultural heritage institutions.  Ukrainian advocacy groups have tried to encourage collecting at U.S. libraries but have been met with resistance, and continued efforts are slow. Many US libraries don't know where to order Ukrainian books, which ones to choose from, or how to catalog them, especially if they don't have Ukrainian speakers on staff.  This project aims to shed light on the landscape of collecting. It is the first step for us to identify and overcome barriers to building Ukrainian collections in US public libraries.",
     citation_keywords:
       "Ukrainian collections, library support, Ukrainian refugees, OCLC data",
     citation_language: "en",
@@ -65,14 +65,14 @@ export const metadata = {
       "Ruslan Mukhamedvaleev",
       "Gabriella Reznowski",
     ],
-    "dc.date": "2024",
+    "dc.date": "2024-11-08",
     "dc.publisher": "Association for Computers and the Humanities",
     "dc.type": "Conference Paper",
     "dc.format": "text/html",
     "dc.language": "en",
     "dc.rights": "All rights reserved",
-    "article:published_time": "2024",
-    "article:modified_time": "2024",
+    "article:published_time": "2024-11-08",
+    "article:modified_time": "2024-12-28",
     "article:section": "Research",
     "article:tag": "Ukrainian Collections",
   },
@@ -89,7 +89,8 @@ export default function ExploringUkrainianCollections() {
             <header className="mb-16 text-center">
               <span className={hedvigLettersSans.className}>
                 <p className="mb-2 text-center text-sm text-yellow-950">
-                  <time dateTime="2024">Published: 2024</time>
+                  <time dateTime="2024-11-08">Published: 2024-11-08</time>
+                  <time dateTime="2024-12-28">Last updated: 2024-12-28</time>
                 </p>
               </span>
               <h1 className="text-3xl font-bold mx-auto text-pretty max-w-xl text-yellow-950 sm:text-4xl mb-6">

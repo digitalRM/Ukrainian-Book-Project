@@ -23,8 +23,8 @@ export const metadata = {
       "Gabriella Reznowski",
       "Anika Krishnan",
     ],
-    publishedTime: "2024",
-    modifiedTime: "2024",
+    publishedTime: "2024-05-04",
+    modifiedTime: "2024-05-04",
   },
   authors: [
     { name: "Emily Cukier", url: "https://libraries.wsu.edu/" },
@@ -51,7 +51,7 @@ export const metadata = {
       "Gabriella Reznowski",
       "Anika Krishnan",
     ],
-    citation_publication_date: "2024",
+    citation_publication_date: "2024-05-04",
     citation_journal_title: "Ukrainian Book Project",
     citation_author_institution: [
       "WSU Libraries",
@@ -73,14 +73,14 @@ export const metadata = {
       "Gabriella Reznowski",
       "Anika Krishnan",
     ],
-    "dc.date": "2024",
+    "dc.date": "2024-05-04",
     "dc.publisher": "Ukrainian Book Project",
     "dc.type": "Research Article",
     "dc.format": "text/html",
     "dc.language": "en",
     "dc.rights": "All rights reserved",
-    "article:published_time": "2024",
-    "article:modified_time": "2024",
+    "article:published_time": "2024-05-04",
+    "article:modified_time": "2024-05-04",
     "article:section": "Research",
     "article:tag": "Ukrainian Collections",
   },
@@ -97,7 +97,8 @@ export default function MappingUkrainianCollections() {
             <header className="mb-16 text-center">
               <span className={hedvigLettersSans.className}>
                 <p className="mb-2 text-center text-sm text-yellow-950">
-                  <time dateTime="2024">Published: 2024</time>
+                  <time dateTime="2024-05-04">Published: 2024-05-04</time>
+                  <time dateTime="2024-05-04">Last updated: 2024-05-04</time>
                 </p>
               </span>
               <h1 className="text-3xl font-bold mx-auto text-pretty max-w-xl text-yellow-950 sm:text-4xl mb-6">
