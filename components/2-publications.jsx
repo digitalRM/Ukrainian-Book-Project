@@ -61,7 +61,7 @@ export default function Publications() {
                 />
               </span>
             </a>
-            <a href="https://www.figma.com/design/a587LZy952mJq3tZyj4hvF/Mapping-Ukrainian-collections-in-U.S.-public-libraries%E2%80%8B?node-id=0%3A1&t=zeTExXcoyamPbZZY-1">
+            <a href="/publications/mapping-ukrainian-collections-in-us-public-libraries">
               <div className="aspect-h-2 aspect-w-3 w-full overflow-hidden rounded-lg h-[330.41px]">
                 <img
                   src="./poster.png"
