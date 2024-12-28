@@ -89,7 +89,7 @@ export default function Publications() {
                 />
               </span>
             </a>
-            <a href="https://www.figma.com/design/a587LZy952mJq3tZyj4hvF/Mapping-Ukrainian-collections-in-U.S.-public-libraries%E2%80%8B?node-id=0%3A1&t=zeTExXcoyamPbZZY-1">
+            <a href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
               <div className="aspect-h-2 aspect-w-3 w-full overflow-hidden rounded-lg h-[330.41px]">
                 <img
                   src="./ach.png"
