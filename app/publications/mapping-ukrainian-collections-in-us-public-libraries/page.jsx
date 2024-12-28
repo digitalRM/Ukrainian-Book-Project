@@ -342,37 +342,6 @@ export default function MappingUkrainianCollections() {
 
                   <section>
                     <h2 className="text-xl font-semibold text-yellow-950 mb-4">
-                      References
-                    </h2>
-                    <ol className="list-decimal pl-6 mb-8" itemProp="citation">
-                      <li className="mb-4">
-                        Department of Homeland Security. (2023, February 24).
-                        Statement from Secretary Mayorkas on the Anniversary of
-                        Russia's Unprovoked Invasion of Ukraine.
-                        <a
-                          href="https://www.dhs.gov/news/2023/02/24/statement-secretary-mayorkas-anniversary-russias-unprovoked-invasion-ukraine"
-                          className="text-yellow-950 hover:text-yellow-950/70 ml-1"
-                          rel="noopener noreferrer"
-                        >
-                          https://www.dhs.gov/news/2023/02/24/statement-secretary-mayorkas-anniversary-russias-unprovoked-invasion-ukraine
-                        </a>
-                      </li>
-                      <li className="mb-4">
-                        Tucker, N. (2023, February 8). NLS Shares Ukrainian
-                        Books to Aid War Refugees. Library of Congress Blogs.
-                        <a
-                          href="https://blogs.loc.gov/loc/2023/02/nls-shares-ukrainian-books-to-aid-war-refugees"
-                          className="text-yellow-950 hover:text-yellow-950/70 ml-1"
-                          rel="noopener noreferrer"
-                        >
-                          https://blogs.loc.gov/loc/2023/02/nls-shares-ukrainian-books-to-aid-war-refugees
-                        </a>
-                      </li>
-                    </ol>
-                  </section>
-
-                  <section>
-                    <h2 className="text-xl font-semibold text-yellow-950 mb-4">
                       Acknowledgments
                     </h2>
                     <ul className="list-disc pl-6 mb-8">
@@ -403,6 +372,37 @@ export default function MappingUkrainianCollections() {
                         />
                       </a>
                     </figure>
+                  </section>
+
+                  <section>
+                    <h2 className="text-xl font-semibold text-yellow-950 mb-4">
+                      References
+                    </h2>
+                    <ol className="list-decimal pl-6 mb-8" itemProp="citation">
+                      <li className="mb-4">
+                        Department of Homeland Security. (2023, February 24).
+                        Statement from Secretary Mayorkas on the Anniversary of
+                        Russia's Unprovoked Invasion of Ukraine.
+                        <a
+                          href="https://www.dhs.gov/news/2023/02/24/statement-secretary-mayorkas-anniversary-russias-unprovoked-invasion-ukraine"
+                          className="text-yellow-950 hover:text-yellow-950/70 ml-1"
+                          rel="noopener noreferrer"
+                        >
+                          https://www.dhs.gov/news/2023/02/24/statement-secretary-mayorkas-anniversary-russias-unprovoked-invasion-ukraine
+                        </a>
+                      </li>
+                      <li className="mb-4">
+                        Tucker, N. (2023, February 8). NLS Shares Ukrainian
+                        Books to Aid War Refugees. Library of Congress Blogs.
+                        <a
+                          href="https://blogs.loc.gov/loc/2023/02/nls-shares-ukrainian-books-to-aid-war-refugees"
+                          className="text-yellow-950 hover:text-yellow-950/70 ml-1"
+                          rel="noopener noreferrer"
+                        >
+                          https://blogs.loc.gov/loc/2023/02/nls-shares-ukrainian-books-to-aid-war-refugees
+                        </a>
+                      </li>
+                    </ol>
                   </section>
                 </span>
               </div>
