@@ -31,7 +31,7 @@ export default function Footer() {
         <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:py-24 lg:px-8 lg:py-32  ">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="space-y-4 xl:col-span-1">
-              <a href="" className="">
+              <a href="/" className="">
                 <span className="sr-only">Ukrainian Book Project</span>
                 <h1 className="text-2xl font-bold text-[#f3f1e9]/90 h-fit w-fit  group ">
                   <span className={hedvigLettersSerif.className}>

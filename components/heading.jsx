@@ -11,7 +11,7 @@ import {
   X,
 } from "lucide-react";
 
-import { Dialog as Dia } from '@/components/ui/dialog'
+import { Dialog as Dia } from "@/components/ui/dialog";
 import {
   DialogContent,
   DialogDescription,
@@ -19,8 +19,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"
-
+} from "@/components/ui/dialog";
 
 import { Hedvig_Letters_Sans, Lora } from "next/font/google";
 import { ContactDialog } from "./ui/contact-dialog";
@@ -40,7 +39,7 @@ export default function Heading() {
         className="mx-auto flex lg:max-w-7xl md:max-w-2xl items-center justify-between sm:py-12 py-6 xl:px-8 scroll-smooth"
         aria-label="Global"
       >
-        <a href="" className="-m-1.5 p-1.5">
+        <a href="/" className="-m-1.5 p-1.5">
           <span className="sr-only">WSU - Ukrainian Book Project</span>
           <h1 className="text-2xl font-semibold text-yellow-950  group ">
             <span className="">
