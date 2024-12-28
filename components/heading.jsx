@@ -76,7 +76,7 @@ export default function Heading() {
             </span>
           </a>
           <a
-            href="#members"
+            href="/#members"
             className="text-md font-semibold tracking-wide leading-6 scroll-smooth text-yellow-950"
           >
             <span className={lora.className}>
@@ -85,7 +85,7 @@ export default function Heading() {
             </span>
           </a>
           <a
-            href="#publications"
+            href="/#publications"
             className="text-md font-semibold tracking-wide leading-6 text-yellow-950"
           >
             <span className={lora.className}>
