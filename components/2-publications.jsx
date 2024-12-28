@@ -89,7 +89,7 @@ export default function Publications() {
                 />
               </span>
             </a>
-            <a href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+            <a href="/publications/exploring-ukrainian-language-collections-in-us-libraries">
               <div className="aspect-h-2 aspect-w-3 w-full overflow-hidden rounded-lg h-[330.41px]">
                 <img
                   src="./ach.png"
