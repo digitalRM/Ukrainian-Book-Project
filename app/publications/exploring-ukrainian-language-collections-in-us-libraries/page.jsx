@@ -138,42 +138,10 @@ export default function ExploringUkrainianCollections() {
               <div className="text-yellow-950/80">
                 <span className={hedvigLettersSans.className}>
                   <section>
-                    <figure className="mb-8 p-2 border border-yellow-950/50 rounded-xl bg-[#d6d3c8]">
-                      <a
-                        href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                      >
-                        <img
-                          src="/slides/1.png"
-                          alt="Title Slide | Exploring Ukrainian Language Collections in US Libraries"
-                          className="rounded-lg border border-yellow-950/50"
-                        />
-                      </a>
-                    </figure>
-                    <p className="mb-8">
-                      This is an edited version of the "Exploring Ukrainian
-                      Language Collections in US Libraries” presentation at the
-                      Association for Computers and the Humanities 2024
-                      conference.
-                    </p>
                     <h2 className="text-xl font-semibold text-yellow-950 mb-4">
-                      Background on the Ukrainian invasion, as it pertains to
-                      libraries
+                      Abstract - Background on the Ukrainian invasion, as it
+                      pertains to libraries
                     </h2>
-                    <figure className="mb-8 p-2 border border-yellow-950/50 rounded-xl bg-[#d6d3c8]">
-                      <a
-                        href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                      >
-                        <img
-                          src="/slides/2.png"
-                          alt="Background on the Ukrainian invasion, as it pertains to libraries | Exploring Ukrainian Language Collections in US Libraries"
-                          className="rounded-lg border border-yellow-950/50"
-                        />
-                      </a>
-                    </figure>
                     <div>
                       <p className="mb-8">
                         Russia began the invasion of Ukraine on February 24,
@@ -198,6 +166,19 @@ export default function ExploringUkrainianCollections() {
                         overcome barriers to building Ukrainian collections in
                         US public libraries.
                       </p>
+                      <figure className="mb-8 p-2 border border-yellow-950/50 rounded-xl bg-[#d6d3c8]">
+                        <a
+                          href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <img
+                            src="/slides/2.png"
+                            alt="Background on the Ukrainian invasion, as it pertains to libraries | Exploring Ukrainian Language Collections in US Libraries"
+                            className="rounded-lg border border-yellow-950/50"
+                          />
+                        </a>
+                      </figure>
                     </div>
                   </section>
 
@@ -205,19 +186,6 @@ export default function ExploringUkrainianCollections() {
                     <h2 className="text-xl font-semibold text-yellow-950 mb-4">
                       Bibliographic Data At Scale
                     </h2>
-                    <figure className="mb-8 p-2 border border-yellow-950/50 rounded-xl bg-[#d6d3c8]">
-                      <a
-                        href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                      >
-                        <img
-                          src="/slides/3.png"
-                          alt="Bibliographic Data At Scale Slide | Exploring Ukrainian Language Collections in US Libraries"
-                          className="rounded-lg border border-yellow-950/50"
-                        />
-                      </a>
-                    </figure>
                     <div>
                       <p className="mb-8">
                         How do we figure out where the books are? At first, we
@@ -233,6 +201,19 @@ export default function ExploringUkrainianCollections() {
                         investigate the prevalence of publications related to
                         Scotland, New Zealand, and Imperial China.
                       </p>
+                      <figure className="mb-8 p-2 border border-yellow-950/50 rounded-xl bg-[#d6d3c8]">
+                        <a
+                          href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <img
+                            src="/slides/3.png"
+                            alt="Bibliographic Data At Scale Slide | Exploring Ukrainian Language Collections in US Libraries"
+                            className="rounded-lg border border-yellow-950/50"
+                          />
+                        </a>
+                      </figure>
                     </div>
                   </section>
 
@@ -240,19 +221,6 @@ export default function ExploringUkrainianCollections() {
                     <h2 className="text-xl font-semibold text-yellow-950 mb-4">
                       Data Workflow
                     </h2>
-                    <figure className="mb-8 p-2 border border-yellow-950/50 rounded-xl bg-[#d6d3c8]">
-                      <a
-                        href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                      >
-                        <img
-                          src="/slides/4.png"
-                          alt="Data Workflow Slide | Exploring Ukrainian Language Collections in US Libraries"
-                          className="rounded-lg border border-yellow-950/50"
-                        />
-                      </a>
-                    </figure>
                     <div>
                       <p className="mb-4">Here's how our process worked:</p>
                       <ol className="list-decimal pl-6 mb-8">
@@ -301,6 +269,19 @@ export default function ExploringUkrainianCollections() {
                           collections by size and type.
                         </li>
                       </ol>
+                      <figure className="mb-8 p-2 border border-yellow-950/50 rounded-xl bg-[#d6d3c8]">
+                        <a
+                          href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <img
+                            src="/slides/4.png"
+                            alt="Data Workflow Slide | Exploring Ukrainian Language Collections in US Libraries"
+                            className="rounded-lg border border-yellow-950/50"
+                          />
+                        </a>
+                      </figure>
                     </div>
                   </section>
 
@@ -308,19 +289,6 @@ export default function ExploringUkrainianCollections() {
                     <h2 className="text-xl font-semibold text-yellow-950 mb-4">
                       Challenges Encountered
                     </h2>
-                    <figure className="mb-8 p-2 border border-yellow-950/50 rounded-xl bg-[#d6d3c8]">
-                      <a
-                        href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                      >
-                        <img
-                          src="/slides/6.png"
-                          alt="Challenges Encountered Slide | Exploring Ukrainian Language Collections in US Libraries"
-                          className="rounded-lg border border-yellow-950/50"
-                        />
-                      </a>
-                    </figure>
                     <div>
                       <p className="mb-4">
                         We came across a few issues during the project:
@@ -348,12 +316,6 @@ export default function ExploringUkrainianCollections() {
                         </li>
                       </ul>
                     </div>
-                  </section>
-
-                  <section>
-                    <h2 className="text-xl font-semibold text-yellow-950 mb-4">
-                      Next Steps
-                    </h2>
                     <figure className="mb-8 p-2 border border-yellow-950/50 rounded-xl bg-[#d6d3c8]">
                       <a
                         href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
@@ -361,12 +323,18 @@ export default function ExploringUkrainianCollections() {
                         target="_blank"
                       >
                         <img
-                          src="/slides/7.png"
-                          alt="Next Steps Slide | Exploring Ukrainian Language Collections in US Libraries"
+                          src="/slides/6.png"
+                          alt="Challenges Encountered Slide | Exploring Ukrainian Language Collections in US Libraries"
                           className="rounded-lg border border-yellow-950/50"
                         />
                       </a>
                     </figure>
+                  </section>
+
+                  <section>
+                    <h2 className="text-xl font-semibold text-yellow-950 mb-4">
+                      Next Steps
+                    </h2>
                     <div>
                       <p className="mb-8">
                         This map is a starting point for a few things. We want
@@ -387,6 +355,19 @@ export default function ExploringUkrainianCollections() {
                         engagement. We'd love it if you would try it, let us
                         know what you think, and give us suggestions.
                       </p>
+                      <figure className="mb-8 p-2 border border-yellow-950/50 rounded-xl bg-[#d6d3c8]">
+                        <a
+                          href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <img
+                            src="/slides/7.png"
+                            alt="Next Steps Slide | Exploring Ukrainian Language Collections in US Libraries"
+                            className="rounded-lg border border-yellow-950/50"
+                          />
+                        </a>
+                      </figure>
                     </div>
                   </section>
 
@@ -394,19 +375,6 @@ export default function ExploringUkrainianCollections() {
                     <h2 className="text-xl font-semibold text-yellow-950 mb-4">
                       Advocacy Resources
                     </h2>
-                    <figure className="mb-8 p-2 border border-yellow-950/50 rounded-xl bg-[#d6d3c8]">
-                      <a
-                        href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                      >
-                        <img
-                          src="/slides/8.png"
-                          alt="Advocacy Resources Slide | Exploring Ukrainian Language Collections in US Libraries"
-                          className="rounded-lg border border-yellow-950/50"
-                        />
-                      </a>
-                    </figure>
                     <div>
                       <ul className="list-disc pl-6 mb-8">
                         <li className="mb-2">
@@ -447,12 +415,6 @@ export default function ExploringUkrainianCollections() {
                         </li>
                       </ul>
                     </div>
-                  </section>
-
-                  <section>
-                    <h2 className="text-xl font-semibold text-yellow-950 mb-4">
-                      Acknowledgements
-                    </h2>
                     <figure className="mb-8 p-2 border border-yellow-950/50 rounded-xl bg-[#d6d3c8]">
                       <a
                         href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
@@ -460,12 +422,18 @@ export default function ExploringUkrainianCollections() {
                         target="_blank"
                       >
                         <img
-                          src="/slides/9.png"
-                          alt="Acknowledgements Slide | Exploring Ukrainian Language Collections in US Libraries"
+                          src="/slides/8.png"
+                          alt="Advocacy Resources Slide | Exploring Ukrainian Language Collections in US Libraries"
                           className="rounded-lg border border-yellow-950/50"
                         />
                       </a>
                     </figure>
+                  </section>
+
+                  <section>
+                    <h2 className="text-xl font-semibold text-yellow-950 mb-4">
+                      Acknowledgements
+                    </h2>
                     <div>
                       <ul className="list-disc pl-6 mb-8">
                         <li className="mb-2">
@@ -480,7 +448,44 @@ export default function ExploringUkrainianCollections() {
                           Ukrainian Association of Washington State
                         </li>
                       </ul>
+                      <figure className="mb-8 p-2 border border-yellow-950/50 rounded-xl bg-[#d6d3c8]">
+                        <a
+                          href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <img
+                            src="/slides/9.png"
+                            alt="Acknowledgements Slide | Exploring Ukrainian Language Collections in US Libraries"
+                            className="rounded-lg border border-yellow-950/50"
+                          />
+                        </a>
+                      </figure>
                     </div>
+                  </section>
+                  <section>
+                    <h2 className="text-xl font-semibold text-yellow-950 mb-4">
+                      Slidedeck
+                    </h2>
+                    <p className="mb-8">
+                      This is an edited version of the "Exploring Ukrainian
+                      Language Collections in US Libraries” presentation at the
+                      Association for Computers and the Humanities 2024
+                      conference.
+                    </p>
+                    <figure className="mb-8 p-2 border border-yellow-950/50 rounded-xl bg-[#d6d3c8]">
+                      <a
+                        href="https://www.canva.com/design/DAGSZ5mOXVo/mZp_CZFb8MPJ4ONsyikxfw/edit?utm_content=DAGSZ5mOXVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img
+                          src="/slides/1.png"
+                          alt="Title Slide | Exploring Ukrainian Language Collections in US Libraries"
+                          className="rounded-lg border border-yellow-950/50"
+                        />
+                      </a>
+                    </figure>
                   </section>
                 </span>
               </div>
