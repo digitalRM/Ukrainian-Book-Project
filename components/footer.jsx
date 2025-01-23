@@ -88,8 +88,8 @@ export default function Footer() {
           </div>
           <div className="mt-8 border-t border-[#f3f1e9]/20 pt-8 md:flex md:items-center md:justify-between">
             <p className="text-xs leading-5 text-[#f3f1e9]/90 md:order-1 mt-0">
-              &copy; 2024 Ukrainian Book Project. All Rights Reserved - A
-              Washington State University Project.
+              &copy; {new Date().getFullYear()} Ukrainian Book Project. All
+              Rights Reserved - A Washington State University Project.
             </p>
             <p className="text-xs leading-5 text-[#f3f1e9]/90 md:order-1 mt-8 sm:mt-0">
               Site by{" "}
