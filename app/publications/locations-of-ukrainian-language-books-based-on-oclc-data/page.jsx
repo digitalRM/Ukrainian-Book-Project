@@ -166,7 +166,7 @@ export default function LocationsOfUkrainianBooks() {
 
                   <section>
                     <a
-                      href="https://public.tableau.com/app/profile/r.m2481/viz/LocationsofUkrainian-languagebooksbasedonOCLCdata-August2024/Sheet1"
+                      href="https://public.tableau.com/app/profile/mukhamedvaleev/viz/LocationsofUkrainian-languagebooksbasedonOCLCdata-DataasofMarch12025_/Sheet1#1"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -182,14 +182,14 @@ export default function LocationsOfUkrainianBooks() {
                     </a>
 
                     <a
-                      href="https://public.tableau.com/app/profile/r.m2481/viz/LocationsofUkrainian-languagebooksbasedonOCLCdata-August2024/Sheet1"
+                      href="https://public.tableau.com/app/profile/mukhamedvaleev/viz/LocationsofUkrainian-languagebooksbasedonOCLCdata-DataasofMarch12025_/Sheet1#1"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <figure className="mb-8 p-2 border border-yellow-950/50 rounded-xl bg-[#d6d3c8">
                         <iframe
                           title="Interactive Map of Ukrainian Language Books based on OCLC data"
-                          src="https://public.tableau.com/views/LocationsofUkrainian-languagebooksbasedonOCLCdata-August2024/Sheet1?:showVizHome=no&:embed=true"
+                          src="https://public.tableau.com/views/LocationsofUkrainian-languagebooksbasedonOCLCdata-DataasofMarch12025_/Sheet1?:showVizHome=no&:embed=true"
                           width="100%"
                           height="600"
                           frameBorder="0"
